@@ -31,7 +31,7 @@ public class Mailbox {
 	}
 	
 	public void updateGreeting(String greeting, String msg) {
-		// Ensure there are only three greetings
+		// Ensure there are only three greetings to chose from
 		if (greeting.equals("greeting1") || greeting.equals("greeting2") || greeting.equals("greeting3")) {
 			this.greetings.put(greeting,msg);		
 		}
