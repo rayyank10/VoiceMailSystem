@@ -36,7 +36,7 @@ public class Mailbox {
 			this.greetings.put(greeting,msg);		
 		}
 	}
-	
+	//Set defualt greeting
 	public void setDefaultGreeting(String msg) {
 		updateGreeting("greeting1",msg);
 	}
