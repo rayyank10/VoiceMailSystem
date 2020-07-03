@@ -52,7 +52,7 @@ public class Mailbox {
 	public String getPassword() {
 		return this.password; 
 	}
-	
+	//check to see if password is correct
 	public boolean isPasswordCorrect(String pass) {
         return pass.equals(password);
 	}
