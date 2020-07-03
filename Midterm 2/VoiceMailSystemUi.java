@@ -11,7 +11,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.JPasswordField;
-//Using jPanel to create a UI
+
 public class VoiceMailSystemUi extends JFrame {
     private final int FIELD_WIDTH = 10;
     private JFrame frame;
