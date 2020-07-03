@@ -14,7 +14,7 @@ public class Mailbox {
 	
 	public Mailbox(int ext) {
 		this.ext = ext;
-		//Set the default password
+		//Set the default password this can be changed later
 		setPassword("1234");
 		// Create default greetings, greeting one is the main greeting
 		this.greetings.put("greeting1","Welcome");
