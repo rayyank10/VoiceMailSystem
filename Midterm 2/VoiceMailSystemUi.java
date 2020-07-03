@@ -44,6 +44,7 @@ public class VoiceMailSystemUi extends JFrame {
     private void createMainMenu() {
         frame.add(welcomeMessage);
         
+        adminButton = new JButton("Admin");
         userButton = new JButton("User");
         callerButton = new JButton("Caller");   
         
